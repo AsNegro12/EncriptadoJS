@@ -16,7 +16,7 @@ header h1{
 main{
     background: #e5e5e5;
     position: relative;
-    width: 1440px;
+    width: auto;
     height: 1024px;
 }
 
