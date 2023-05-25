@@ -82,6 +82,14 @@ main{
     top: 50px;
 }
 
+.Botones:first-child{
+    background: #0A3871;
+}
+
+.Botones:last-child{
+    background: #D8DFE8;
+}
+
 .areaMostrarTexto{
     position: absolute;
     width: 500px;
