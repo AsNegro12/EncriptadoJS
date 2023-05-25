@@ -84,10 +84,40 @@ main{
 
 .Botones:first-child{
     background: #0A3871;
+    border: none;
+    border-radius: 24px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .Botones:last-child{
     background: #D8DFE8;
+    border-color: #0A3871;
+    border-radius: 24px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+
+    width: 328px;
+    height: 67px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
 }
 
 .areaMostrarTexto{
