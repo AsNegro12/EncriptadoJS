@@ -21,9 +21,8 @@ main{
 }
 
 .areaAgregarTexto{
-    position: relative;
-    margin: 0 auto;
-    width: auto;
+    position: absolute;
+    width: 500px;
     height: 48px;
     left: 240px;
     top: 168px;
