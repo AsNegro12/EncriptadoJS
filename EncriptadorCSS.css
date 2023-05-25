@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    background-color: #e5e5e5;
+    background-color: #f3f5fc;
     padding: 10px 0;
 }
 
@@ -14,7 +14,7 @@ header h1{
 }
 
 main{
-    background: #e5e5e5;
+    background: #f3f5fc;
     position: relative;
     width: auto;
     height: 1024px;
@@ -36,7 +36,7 @@ main{
     line-height: 150%;
 
     color: #0A3871;
-    background: #e5e5e5;
+    background: #f3f5fc;
     border: none;
 }
 
@@ -139,6 +139,6 @@ main{
 }
 
 footer{
-    background: #e5e5e5;
+    background: #f3f5fc;
     width: auto;
 }
