@@ -15,6 +15,9 @@ header h1{
 
 main{
     background: #e5e5e5;
+    position: relative;
+    width: 1440px;
+    height: 1024px;
 }
 
 .areaAgregarTexto{
@@ -36,6 +39,28 @@ main{
     color: #0A3871;
     background: #e5e5e5;
     border: none;
+}
+
+.areabotones{
+    position: relative;
+    margin: 0 auto;
+    width: auto;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    position: absolute;
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 851px
+}
+
+.Advertencia{
+    
 }
 
 footer{
