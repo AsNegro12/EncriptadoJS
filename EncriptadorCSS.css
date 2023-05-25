@@ -13,6 +13,31 @@ header h1{
     width: auto;
 }
 
+main{
+    background: #e5e5e5;
+}
+
+.areaAgregarTexto{
+    position: relative;
+    margin: 0 auto;
+    width: auto;
+    height: 48px;
+    left: 240px;
+    top: 168px;
+}
+
+.areaAgregarTexto input{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+
+    color: #0A3871;
+    background: #e5e5e5;
+    border: none;
+}
+
 footer{
     background: #e5e5e5;
     width: auto;
