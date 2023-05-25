@@ -87,7 +87,7 @@ main{
     border: none;
     border-radius: 24px;
 
-    display: flex;
+    display: inline;
     flex-direction: row;
     align-items: flex-start;
     padding: 24px;
@@ -99,6 +99,10 @@ main{
     flex: none;
     order: 0;
     flex-grow: 0;
+
+    /* texto del botón */
+
+    text-align: center;
 }
 
 .Botones:last-child{
@@ -106,7 +110,7 @@ main{
     border-color: #0A3871;
     border-radius: 24px;
 
-    display: flex;
+    display: inline;
     flex-direction: row;
     align-items: flex-start;
     padding: 24px;
