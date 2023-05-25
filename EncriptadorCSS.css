@@ -60,7 +60,16 @@ main{
 }
 
 .Advertencia{
-    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+
+    width: 229px;
+    height: 18px;
+    left: 240px;
+    top: 851px;
 }
 
 .areaMostrarTexto{
