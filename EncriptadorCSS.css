@@ -67,8 +67,19 @@ main{
 
     width: 229px;
     height: 18px;
-    left: 240px;
-    top: 851px;
+}
+
+.boxBotones{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+
+    position: absolute;
+    width: 680px;
+    height: 67px;
+    top: 50px;
 }
 
 .areaMostrarTexto{
