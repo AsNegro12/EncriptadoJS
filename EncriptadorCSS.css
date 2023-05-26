@@ -26,8 +26,8 @@ main{
 
 .areaAgregarTexto{
     position: absolute;
-    left: 240px;
-    top: 168px;
+    left: 200px;
+    top: 100px;
 }
 
 .areaAgregarTexto textarea{
@@ -36,8 +36,8 @@ main{
 
     resize: none;
     overflow: auto;
-    width: 500px;
-    height: 48px;
+    width: 800px;
+    height: 600px;
 
     font-family: 'Inter';
     font-style: normal;
