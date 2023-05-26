@@ -84,7 +84,8 @@ main{
 
 .Botones:first-child{
     background: #0A3871;
-    border: none;
+    border-style: solid;
+    border-color: #0A3871;
     border-radius: 24px;
 
     display: inline;
@@ -102,12 +103,19 @@ main{
 
     /* texto del botón */
 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
     text-align: center;
+    color: #FFFFFF;
 }
 
 .Botones:last-child{
     background: #D8DFE8;
     border-color: #0A3871;
+    border-style: solid;
     border-radius: 24px;
 
     display: inline;
@@ -122,6 +130,16 @@ main{
     flex: none;
     order: 0;
     flex-grow: 0;
+
+    /* texto del botón */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
 }
 
 .areaMostrarTexto{
