@@ -61,7 +61,7 @@ main{
     width: 229px;
     height: 18px;
     left: 240px;
-    top: 851px
+    top: 790px
 }
 
 .Advertencia{
@@ -166,9 +166,9 @@ main{
 .areaMostrarTexto{
     position: absolute;
     width: 500px;
-    height: 944px;
+    height: 900px;
     left: 1150px;
-    top: 40px;
+    top: 10px;
 
     background: #FFFFFF;
     /* shadow */
