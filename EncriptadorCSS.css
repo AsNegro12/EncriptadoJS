@@ -177,6 +177,14 @@ main{
     border-radius: 32px;
 }
 
+.Muneco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    left: 82px;
+    top: 250px;
+}
+
 footer{
     background: #f3f5fc;
     width: auto;
