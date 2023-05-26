@@ -22,15 +22,18 @@ main{
 
 .areaAgregarTexto{
     position: absolute;
-    width: 500px;
-    height: 48px;
     left: 240px;
     top: 168px;
 }
 
-.areaAgregarTexto input{
+.areaAgregarTexto textarea{
     border: none;
     outline: none;
+
+    resize: none;
+    overflow: auto;
+    width: 500px;
+    height: 48px;
 
     font-family: 'Inter';
     font-style: normal;
