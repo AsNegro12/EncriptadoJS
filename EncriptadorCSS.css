@@ -13,6 +13,10 @@ header h1{
     width: auto;
 }
 
+header img{
+    margin: 20px 0 auto;
+}
+
 main{
     background: #f3f5fc;
     position: relative;
