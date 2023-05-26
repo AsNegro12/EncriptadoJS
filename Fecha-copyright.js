@@ -2,4 +2,4 @@ const fechaActual = new Date();
 
 const año = fechaActual.getFullYear();
 
-document.getElementById("fecha").innerHTML = "© Copyright Barberia Alura - " + año;
+document.getElementById("fecha").innerHTML = "© Copyright EncriptadorJS - " + año;
