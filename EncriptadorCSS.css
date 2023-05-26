@@ -256,3 +256,24 @@ footer{
     background: #f3f5fc;
     width: auto;
 }
+
+.Contacto{
+    padding: 15px 15px;
+}
+
+.botonesLinks{
+    padding: 15px 15px;
+    background: #f3f5fc;
+    width: auto;
+
+    border: none;
+}
+
+.botonesLinks img{
+    width: 25px;
+    height: 25px;
+}
+
+.copyright{
+    padding: 15px 15px;
+}
