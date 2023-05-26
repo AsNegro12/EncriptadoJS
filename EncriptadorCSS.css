@@ -185,6 +185,43 @@ main{
     top: 250px;
 }
 
+.boxTextoMuñeco{
+    position: absolute;
+    width: 336px;
+    height: 122px;
+    left: 82px;
+    top: 619px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;         
+}
+
+.boxTextoMuñeco h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 120%;
+    /* or 29px */
+    
+    text-align: center;
+    
+    /* Gray/gray-500 */
+    
+    color: #343A40;
+    
+    
+    /* Inside auto layout */
+    
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
 footer{
     background: #f3f5fc;
     width: auto;
