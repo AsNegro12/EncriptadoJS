@@ -133,7 +133,7 @@ main{
     box-shadow: 10px 24px 32px -8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
 }
-.Botones:last-child{
+.Botones:nth-child(2){
     background: #D8DFE8;
     border-color: #0A3871;
     border-style: solid;
@@ -165,7 +165,7 @@ main{
     transition: 150ms;
 }
 
-.Botones:last-child:hover{
+.Botones:nth-child(2):hover{
     background: #b7c3d2;
     border-color: #246ec9;
     box-shadow: 10px 24px 32px -8px rgba(0, 0, 0, 0.2);
