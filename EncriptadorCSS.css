@@ -110,8 +110,14 @@ main{
     line-height: 19px;
     text-align: center;
     color: #FFFFFF;
+
+    transition: 150ms;
 }
 
+.Botones:first-child:hover{
+    background: #246ec9;
+    border-color: #246ec9;
+}
 .Botones:last-child{
     background: #D8DFE8;
     border-color: #0A3871;
@@ -140,6 +146,13 @@ main{
     line-height: 19px;
     text-align: center;
     color: #0A3871;
+
+    transition: 150ms;
+}
+
+.Botones:last-child:hover{
+    background: #b7c3d2;
+    border-color: #246ec9;
 }
 
 .areaMostrarTexto{
