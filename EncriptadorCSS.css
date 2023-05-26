@@ -131,6 +131,7 @@ main{
     background: #246ec9;
     border-color: #246ec9;
     box-shadow: 10px 24px 32px -8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 .Botones:last-child{
     background: #D8DFE8;
@@ -168,6 +169,7 @@ main{
     background: #b7c3d2;
     border-color: #246ec9;
     box-shadow: 10px 24px 32px -8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 .areaMostrarTexto{
