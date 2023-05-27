@@ -9,7 +9,13 @@ function MostrarTexto()
 {
     var textinput = document.getElementById("txtareaInput"); 
     
-    var Captura = document.getElementById("Resultado").innerHTML = textinput.value;
+    if(textinput.value == "")
+    {
+        alert("Agregue texto antes de hacer cualquier cosa.")
+    }
+        var Captura = document.getElementById("Resultado").innerHTML = textinput.value;
+
+
 
 }
 
