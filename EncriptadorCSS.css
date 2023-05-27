@@ -254,6 +254,12 @@ main{
     flex-grow: 0; 
 }
 
+.BotónCopiar{
+    position: absolute;
+    left: 82px;
+    top: 760px;
+}
+
 footer{
     background: #f3f5fc;
     width: auto;
