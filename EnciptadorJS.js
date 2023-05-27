@@ -13,10 +13,18 @@ function MostrarTexto()
     {
         alert("Agregue texto antes de hacer cualquier cosa.")
     }
-        var Captura = document.getElementById("Resultado").innerHTML = textinput.value;
+    else
+    {
+        mostrarElementos();
+        document.getElementById("Resultado").innerHTML = textinput.value;
+    }
+    
+}
 
-
-
+function mostrarElementos(params)
+{
+    document.getElementById("Resultado").style.display = "block";
+    botoncopiar.style.display = "block";  
 }
 
 encriptar.onclick = MostrarTexto;
