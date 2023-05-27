@@ -2,7 +2,7 @@ const encriptar = document.getElementById("btnEncriptar");
 const desencriptar = document.getElementById("btnDesencriptar");
 const botoncopiar = document.getElementById("btnCopiar");
 
-function ObtenerValorCampo()
+function MostrarTexto()
 {
     var textinput = document.getElementById("txtareaInput");
     var textocapturado = textinput.value;
@@ -11,4 +11,6 @@ function ObtenerValorCampo()
 
 }
 
-encriptar.onclick = ObtenerValorCampo;
+encriptar.onclick = MostrarTexto;
+
+desencriptar.onclick = MostrarTexto;
