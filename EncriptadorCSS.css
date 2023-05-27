@@ -68,7 +68,7 @@ main{
     width: 229px;
     height: 18px;
     left: 240px;
-    top: 790px
+    top: 750px
 }
 
 .Advertencia{
@@ -256,8 +256,44 @@ main{
 
 .BotónCopiar{
     position: absolute;
+    width: 328px;
+    height: 67px;
     left: 82px;
-    top: 760px;
+    top: 790px;
+
+    background: #ffffff;
+    border-color: #0A3871;
+    border-style: solid;
+    border-radius: 24px;
+
+    display: inline;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+
+    /* texto del botón */
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+
+    transition: 150ms;
+}
+
+.BotónCopiar:hover{
+    background: #dee5ef;
+    border-color: #246ec9;
+    box-shadow: 10px 24px 32px -8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
 }
 
 footer{
