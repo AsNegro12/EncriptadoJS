@@ -1,4 +1,6 @@
 const encriptar = document.getElementById("btnEncriptar");
+const desencriptar = document.getElementById("btnDesencriptar");
+const botoncopiar = document.getElementById("btnCopiar");
 
 function ObtenerValorCampo()
 {
