@@ -17,7 +17,7 @@ function mostrarTexto()
     {
         mostrarElementos();
         let texto = textinput.value;
-        let txtEncriptado = Encriptar(texto);
+        let txtEncriptado =encriptarTexto(texto);
         textoutput.innerHTML = txtEncriptado;
     }
 
@@ -52,11 +52,11 @@ function copiarTexto()
 //
 botonEncriptar.onclick = mostrarTexto;
 botoncopiar.onclick = copiarTexto;
-botonDesencriptar.onclick = mostrarTexto;
+botonDesencriptar.onclick = desencriptarTexto;
 //
 //Esta Función se encarga de hacer el encriptado.
 //
-function Encriptar(cadena)
+function encriptarTexto(cadena)
 {
     var letrasModificadas = {};
 
@@ -75,20 +75,20 @@ function Encriptar(cadena)
         var reemplazo = '';
         switch (letra)
         {
-        case 'a':
-            reemplazo = 'ai';
+            case 'a':
+                reemplazo = 'ai';
             break;
-        case 'e':
-            reemplazo = 'enter';
+            case 'e':
+                reemplazo = 'enter';
             break;
-        case 'i':
-            reemplazo = 'imes';
+            case 'i':
+                reemplazo = 'imes';
             break;
-        case 'o':
-            reemplazo = 'ober';
+            case 'o':
+                reemplazo = 'ober';
             break;
-        case 'u':
-            reemplazo = 'ufat';
+            case 'u':
+                reemplazo = 'ufat';
             break;
         }
 
@@ -97,4 +97,28 @@ function Encriptar(cadena)
     }).join('');
 
     return cadena; 
+}
+//
+//Esta Función se encarga de hacer el desencriptado.
+//
+function desencriptarTexto()
+{
+    let textoDesencriptado = textinput.value;
+
+    textoDesencriptado = textoDesencriptado.replace(/ai/g, 'a');
+    textoDesencriptado = textoDesencriptado.replace(/enter/g, 'e');
+    textoDesencriptado = textoDesencriptado.replace(/imes/g, 'i');
+    textoDesencriptado = textoDesencriptado.replace(/ober/g, 'o');
+    textoDesencriptado = textoDesencriptado.replace(/ufat/g, 'u');
+
+    //console.log("texto desencriptado: " + textoDesencriptado);
+    if(textinput.value == "")
+    {
+        alert("Agregar texto antes de hacer cualquier cosa.");
+    }
+    else
+    {
+        mostrarElementos();
+        textoutput.innerHTML = textoDesencriptado;
+    }
 }
