@@ -1,12 +1,12 @@
 //
 //En esta parte del codígo se hace la captura y se muestra el texto.
 //
-const encriptar = document.getElementById("btnEncriptar");
-const desencriptar = document.getElementById("btnDesencriptar");
+const botonEncriptar = document.getElementById("btnEncriptar");
+const botonDesencriptar = document.getElementById("btnDesencriptar");
 const botoncopiar = document.getElementById("btnCopiar");
 var textinput = document.getElementById("txtareaInput"); 
 
-function MostrarTexto()
+function mostrarTexto()
 {   
     if(textinput.value == "")
     {
@@ -40,6 +40,6 @@ function copiarTexto()
     alert("El texto fue copiado.");
 }
 
-encriptar.onclick = MostrarTexto;
+botonEncriptar.onclick = MostrarTexto;
 botoncopiar.onclick = copiarTexto;
-desencriptar.onclick = MostrarTexto;
+botonDesencriptar.onclick = MostrarTexto;
