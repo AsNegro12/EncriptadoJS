@@ -40,6 +40,6 @@ function copiarTexto()
     alert("El texto fue copiado.");
 }
 
-botonEncriptar.onclick = MostrarTexto;
+botonEncriptar.onclick = mostrarTexto;
 botoncopiar.onclick = copiarTexto;
-botonDesencriptar.onclick = MostrarTexto;
+botonDesencriptar.onclick = mostrarTexto;
