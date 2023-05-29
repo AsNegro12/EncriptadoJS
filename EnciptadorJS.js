@@ -123,8 +123,8 @@ function desencriptarTexto(cadena)
     textoDesencriptado = textoDesencriptado.replace(/ufat/g, 'u');
 
     return textoDesencriptado;
-    //que no se te olvide, si deseas modicar algo que la funcion reciber de otro lugar
-    //necesitas devolverlo el valor al final de la función.
+    // QUE NO SE TE OLVIDE, SI DESEAS MODIFICAR ALGO QUE LA FUNCIÓN RECIBE DE OTRO LUGAR 
+    //NECESITAS DEVOLVER EL VALOR AL FINAL DE LA FUNCIÓN.
     //console.log("texto desencriptado: " + textoDesencriptado);
 
 }
