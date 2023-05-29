@@ -50,7 +50,7 @@ main{
 }
 
 .areaAgregarTexto textarea::placeholder{
- color: #0A3871;
+ color: #779ece;
 }
 
 .areabotones{
@@ -266,10 +266,11 @@ main{
     font-weight: 400;
     font-size: 24px;
     line-height: 150%;
-    /* or 36px */
 
-
-    /* Gray/gray-400 */
+    border: none;
+    outline: none;
+    resize: none;
+    overflow: auto;
 
     color: #495057;
     background: #ffffff;
@@ -319,17 +320,20 @@ main{
 
 
 footer{
-    background: #f3f5fc;
+    background: #3e414a;
     width: auto;
 }
 
 .Contacto{
     padding: 15px 15px;
+    font-size: 15;
+    font-weight: bold;
+    color: #ffffff;
 }
 
 .botonesLinks{
     padding: 15px 15px;
-    background: #f3f5fc;
+    background: #3e414a;
     width: auto;
 
     border: none;

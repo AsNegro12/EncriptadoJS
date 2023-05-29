@@ -2,7 +2,7 @@ const botonEncriptar = document.getElementById("btnEncriptar");
 const botonDesencriptar = document.getElementById("btnDesencriptar");
 const botoncopiar = document.getElementById("btnCopiar");
 var textinput = document.getElementById("txtareaInput");
-var textoutput = document.getElementById("txtResultado");
+var textoutput = document.getElementById("outputTexto");
 //
 //En esta parte del codígo se muestra el texto.
 //
@@ -43,7 +43,7 @@ function mostrarTexto(boton)
 //
 function mostrarElementos()
 {
-    document.getElementById("txtResultado").style.display = "block";
+    document.getElementById("elmentosOcultos").style.display = "block";
     botoncopiar.style.display = "block";  
 }
 //
@@ -51,7 +51,7 @@ function mostrarElementos()
 //lo que se encuentra en el "Resultado".
 function copiarTexto()
 {
-    var elementoACopiar = document.getElementById("txtResultado");
+    var elementoACopiar = textoutput;
     var rango = document.createRange();
     rango.selectNode(elementoACopiar);
     
@@ -128,7 +128,7 @@ function desencriptarTexto(cadena)
 
     return textoDesencriptado;
     //que no se te olvide, si deseas modicar algo que la funcion reciber de otro lugar
-    //necesitas devolver el valor al final de la función.
+    //necesitas devolverlo el valor al final de la función.
     //console.log("texto desencriptado: " + textoDesencriptado);
 
 }
