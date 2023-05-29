@@ -6,21 +6,36 @@ var textoutput = document.getElementById("txtResultado");
 //
 //En esta parte del codígo se muestra el texto.
 //
-function mostrarTexto()
+function mostrarTexto(boton)
 {
-
-    if(textinput.value == "")
+    if(boton == 1)
     {
-        alert("Agregar texto antes de hacer cualquier cosa.");
+        if(textinput.value == "")
+        {
+            alert("Agregar texto antes de hacer cualquier cosa.");
+        }
+        else
+        {
+            mostrarElementos();
+            let texto = textinput.value;
+            let txtEncriptado = encriptarTexto(texto);
+            textoutput.innerHTML = txtEncriptado;
+        }
     }
-    else
+    else if(boton == 2)
     {
-        mostrarElementos();
-        let texto = textinput.value;
-        let txtEncriptado =encriptarTexto(texto);
-        textoutput.innerHTML = txtEncriptado;
+        if(textinput.value == "")
+        {
+            alert("Agregar texto antes de hacer cualquier cosa.");
+        }
+        else
+        {
+            mostrarElementos();
+            let texto = textinput.value;
+            let textoDesencriptado = desencriptarTexto(texto);
+            textoutput.innerHTML = textoDesencriptado;
+        }
     }
-
 }
 //
 //Lo que hace esta funcion es mostrar los elementos 
@@ -50,9 +65,9 @@ function copiarTexto()
 //
 //Aqui se ejecutan las funciones.
 //
-botonEncriptar.onclick = mostrarTexto;
+//botonEncriptar.onclick = mostrarTexto;
 botoncopiar.onclick = copiarTexto;
-botonDesencriptar.onclick = desencriptarTexto;
+//botonDesencriptar.onclick = desencriptarTexto;
 //
 //Esta Función se encarga de hacer el encriptado.
 //
@@ -101,9 +116,9 @@ function encriptarTexto(cadena)
 //
 //Esta Función se encarga de hacer el desencriptado.
 //
-function desencriptarTexto()
+function desencriptarTexto(cadena)
 {
-    let textoDesencriptado = textinput.value;
+    let textoDesencriptado = cadena;
 
     textoDesencriptado = textoDesencriptado.replace(/ai/g, 'a');
     textoDesencriptado = textoDesencriptado.replace(/enter/g, 'e');
@@ -111,14 +126,9 @@ function desencriptarTexto()
     textoDesencriptado = textoDesencriptado.replace(/ober/g, 'o');
     textoDesencriptado = textoDesencriptado.replace(/ufat/g, 'u');
 
+    return textoDesencriptado;
+    //que no se te olvide, si deseas modicar algo que la funcion reciber de otro lugar
+    //necesitas devolver el valor al final de la función.
     //console.log("texto desencriptado: " + textoDesencriptado);
-    if(textinput.value == "")
-    {
-        alert("Agregar texto antes de hacer cualquier cosa.");
-    }
-    else
-    {
-        mostrarElementos();
-        textoutput.innerHTML = textoDesencriptado;
-    }
+
 }
