@@ -51,23 +51,19 @@ function mostrarElementos()
 //lo que se encuentra en el "Resultado".
 function copiarTexto()
 {
-    var elementoACopiar = textoutput;
-    var rango = document.createRange();
-    rango.selectNode(elementoACopiar);
+    var elementoACopiar = document.getElementById("outputTexto");
     
-    window.getSelection().removeAllRanges(); // Limpiar selecciones previas
-    window.getSelection().addRange(rango);//agrega un rango
+    outputTexto.select();
+    outputTexto.setSelectionRange(0, 99999);
 
-    document.execCommand("copy");
+    document.execCommand('copy');
 
     //alert("El texto fue copiado.");
 }
 //
 //Aqui se ejecutan las funciones.
 //
-//botonEncriptar.onclick = mostrarTexto;
 botoncopiar.onclick = copiarTexto;
-//botonDesencriptar.onclick = desencriptarTexto;
 //
 //Esta Función se encarga de hacer el encriptado.
 //
